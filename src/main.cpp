@@ -272,7 +272,7 @@ int main()
             float shape_width = shape.getLocalBounds().width;
             float shape_height = shape.getLocalBounds().height;
 
-            text.setCharacterSize(19);
+            text.setCharacterSize(18);
 
             sf::FloatRect textBounds = text.getLocalBounds();
             text.setOrigin(textBounds.left + textBounds.width / 2.0f,
